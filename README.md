@@ -1,8 +1,9 @@
 <h2 align="left">Hi 👋! I'm Jayashuriya and I like programming</h2>
 
 ###
+<div align = "center">
 <img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/8bbe88ab-9f78-4a9e-87eb-d448c95dbeb5" />
-
+<div>
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Sambarlasagna&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
 </div>
