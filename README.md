@@ -6,6 +6,11 @@
 </div>
 
 ###
+<div align="center">
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Sambarlasagna&theme=github_dark" height="250" alt="languages graph"  />
+</div>
+
+<br>
 
 <div align="middle">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" height="50" />
