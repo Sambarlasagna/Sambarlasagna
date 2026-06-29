@@ -1,15 +1,3 @@
-<h1 align="center">Hi 👋, I'm Jayashuriya</h1>
-
-<h3 align="center">
-Machine Learning • Deep Learning • MLOps Enthusiast
-</h3>
-
-<p align="center">
-Passionate about building intelligent systems, deploying scalable ML applications, and continuously learning modern AI technologies.
-</p>
-
----
-
 [![Fancy Profile Card](https://fancy-readme-stats.vercel.app/api?username=Sambarlasagna&theme=beach&title=Jayashuriya&description=Machine%20Learning%20%7C%20Deep%20Learning%20%7C%20MLOps&show_icons=true)](https://github.com/maximjsx/fancy-readme-stats)
 
 ---
