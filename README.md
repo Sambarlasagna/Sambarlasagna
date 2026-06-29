@@ -10,9 +10,7 @@ Passionate about building intelligent systems, deploying scalable ML application
 
 ---
 
-<div align="center">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Sambarlasagna&theme=github_dark" />
-</div>
+[![Fancy Profile Card](https://fancy-readme-stats.vercel.app/api?username=Sambarlasagna&theme=beach&title=Jayashuriya&description=Machine%20Learning%20%7C%20Deep%20Learning%20%7C%20MLOps&show_icons=true)](https://github.com/maximjsx/fancy-readme-stats)
 
 ---
 
@@ -66,4 +64,7 @@ Passionate about building intelligent systems, deploying scalable ML application
   <a href="https://www.hackerrank.com/profile/jayatech911">
     <img src="https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white"/>
   </a>
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Sambarlasagna/Sambarlasagna/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
 </p>
