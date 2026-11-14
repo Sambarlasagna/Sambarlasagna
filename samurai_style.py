@@ -61,13 +61,13 @@ def samurai_drawing(palette=None):
         body.append(f'<path d="{r1}" fill="url(#sm-acc)"><animate attributeName="d" values="{r1};{r2};{r1}" dur="{dur}s" begin="{k}s" repeatCount="indefinite"/></path>')
 
     # ---------------------------------------------------------------- lower body (hakama) with weave texture
-    HK = "M258,396 C246,452 224,524 148,604 L430,604 C404,524 394,452 392,402 Z"
+    HK = "M258,396 C252,440 238,512 212,604 L398,604 C382,524 366,456 356,402 Z"
     body.append(f'<path d="{HK}" fill="url(#sm-cloth)"/><path d="{HK}" fill="url(#sm-weave)"/>')
-    body.append(edge("M300,410 C292,470 270,540 232,604 M340,410 C342,480 340,540 346,604 M372,410 C384,470 398,540 422,604", 0.14))
-    body.append(rim("M258,396 C246,452 224,524 148,604", 0.4, 1.6))
+    body.append(edge("M286,410 C282,470 268,540 250,604 M312,410 C314,480 314,540 318,604 M338,410 C344,470 354,540 372,604", 0.14))
+    body.append(rim("M258,396 C252,440 238,512 212,604", 0.4, 1.6))
 
     # ---------------------------------------------------------------- torso leaning forward
-    body.append('<path d="M212,270 C228,248 262,238 296,244 C326,250 346,274 350,312 C352,346 348,372 342,398 L262,396 C246,350 226,308 212,270 Z" fill="url(#sm-arm)"/>')
+    body.append('<path d="M212,270 C228,248 262,238 296,244 C326,250 346,274 350,312 C354,346 354,374 352,400 L260,396 C246,350 226,308 212,270 Z" fill="url(#sm-arm)"/>')
     body.append('<path d="M262,284 C290,270 322,274 338,300 C342,330 338,360 332,386 L284,386 C276,350 268,318 262,284 Z" fill="url(#sm-arm2)" opacity="0.85"/>')
     body.append(edge("M268,304 C292,296 318,298 338,310 M272,330 C296,324 318,326 340,336 M276,356 C298,352 320,354 338,360", 0.2))
     body.append(f'<path d="M300,314 L308,322 L300,330 L292,322 Z" fill="{G2}" opacity="0.8"><animate attributeName="opacity" values="0.4;0.95;0.4" dur="3s" repeatCount="indefinite"/></path>')
@@ -77,8 +77,8 @@ def samurai_drawing(palette=None):
     body.append('<path d="M286,248 C300,236 328,236 342,250 L338,270 C318,262 300,264 284,272 Z" fill="url(#sm-arm2)"/>')
     body.append(f'<path d="M288,252 C302,242 326,242 338,254" fill="none" stroke="{AC}" stroke-width="2.4" stroke-linecap="round"/>')
     # belt, cord and hanging sash tail
-    body.append('<path d="M254,390 L396,398 L394,418 L252,410 Z" fill="url(#sm-arm2)"/>')
-    body.append(f'<path d="M254,400 L395,408" stroke="{AC}" stroke-width="3" stroke-dasharray="4 4" opacity="0.9"/>')
+    body.append('<path d="M254,390 L358,396 L356,416 L252,410 Z" fill="url(#sm-arm2)"/>')
+    body.append(f'<path d="M254,400 L357,406" stroke="{AC}" stroke-width="3" stroke-dasharray="4 4" opacity="0.9"/>')
     body.append(f'<circle cx="272" cy="408" r="7" fill="url(#sm-acc)"/>')
     t1 = "M266,412 C260,442 270,464 260,492 L272,494 C282,464 276,440 280,414 Z"
     t2 = "M266,412 C266,442 280,462 276,490 L288,488 C292,462 284,440 280,414 Z"
@@ -137,18 +137,20 @@ def samurai_drawing(palette=None):
     body.append(f'<g transform="translate({TS[0]+bx*10:.1f},{TS[1]+by*10:.1f}) rotate({math.degrees(math.atan2(by, bx)):.1f})"><rect x="-3" y="-5.5" width="7" height="11" rx="1.5" fill="{R}"/></g>')
 
     # ---------------------------------------------------------------- rear arm with layered pauldron, hand at the scabbard mouth
-    body.append(capsule((206, 286), (138, 352), 42, 34, "url(#sm-arm)"))
-    body.append(capsule((138, 352), (258, 394), 32, 24, "url(#sm-arm2)"))
-    body.append(edge("M168,332 C190,350 222,372 250,382", 0.25))
-    body.append(rim("M190,264 C172,284 150,320 128,346", 0.45, 1.4))
-    body.append(f'<path d="M160,346 L176,354 M178,352 L194,360" stroke="{AC}" stroke-width="3" stroke-linecap="round" opacity="0.9"/>')
-    pa = ['<g transform="translate(208,276) rotate(14)">']
+    body.append(capsule((214, 284), (160, 350), 36, 30, "url(#sm-arm)"))
+    body.append(capsule((160, 350), (260, 392), 30, 23, "url(#sm-arm2)"))
+    body.append(edge("M184,340 C204,356 230,372 252,382", 0.25))
+    body.append(rim("M200,268 C184,288 168,318 146,344", 0.45, 1.4))
+    body.append(f'<path d="M178,350 L192,358 M194,356 L208,364" stroke="{AC}" stroke-width="3" stroke-linecap="round" opacity="0.9"/>')
+    pa = ['<g transform="translate(216,266) rotate(22)">']
+    pa.append(f'<path d="M-30,6 C-30,-8 30,-8 30,6 L30,10 L-30,10 Z" fill="url(#sm-arm)"/>')    # rounded shoulder cap
     for i in range(4):
-        y = i * 15
-        pa.append(f'<rect x="-34" y="{y}" width="68" height="14" rx="5" fill="url(#sm-arm2)"/>')
-        for xx in (-22, -3, 16):
-            pa.append(f'<rect x="{xx}" y="{y+3}" width="9" height="8" rx="2" fill="url(#sm-acc)" opacity="0.92"/>')
-    pa.append(f'<path d="M-34,2 L34,2" stroke="{R}" stroke-opacity="0.5" stroke-width="1.4" filter="url(#sm-rim)"/></g>')
+        y = 6 + i * 13
+        w = 62 - i * 3
+        pa.append(f'<rect x="{-w/2}" y="{y}" width="{w}" height="12.5" rx="4.5" fill="url(#sm-arm2)"/>')
+        for xx in (-w*0.32, -4, w*0.2):
+            pa.append(f'<rect x="{xx:.1f}" y="{y+2.5}" width="8" height="7" rx="2" fill="url(#sm-acc)" opacity="0.92"/>')
+    pa.append(f'<path d="M-30,4 C-20,-6 20,-6 30,4" fill="none" stroke="{R}" stroke-opacity="0.6" stroke-width="1.5" filter="url(#sm-rim)"/></g>')
     body.append("".join(pa))
     body.append(glove(278, 391, -33.8, 36, 22, thumb=True))
 
