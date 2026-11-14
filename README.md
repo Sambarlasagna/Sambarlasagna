@@ -1,59 +1,44 @@
-[![Fancy Profile Card](https://fancy-readme-stats.vercel.app/api?username=Sambarlasagna&theme=beach&title=Jayashuriya&description=Machine%20Learning%20%7C%20Deep%20Learning%20%7C%20MLOps&show_icons=true)](https://github.com/maximjsx/fancy-readme-stats)
+<img src="assets/banner.svg" alt="Jayashuriya J — Machine Learning Engineer" width="100%"/>
 
----
+<img src="assets/h_about.svg" alt="About" width="100%"/>
+<img src="assets/about.svg" alt="B.Tech CS (AI & ML) student at VIT Chennai building ML systems end to end" width="100%"/>
 
-## 🛠️ Tech Stack
+<img src="assets/h_stats.svg" alt="GitHub Stats" width="100%"/>
+<img src="assets/elden-stats.svg" alt="GitHub stats: contributions, commits, pull requests, issues, repositories, stars and top languages" width="100%"/>
 
-**Languages:**  
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+<img src="assets/h_skills.svg" alt="Skills" width="100%"/>
+<img src="assets/skills.svg" alt="Focus areas: ML, GenAI, MLOps, data engineering, backend, frontend" width="100%"/>
 
-**Machine Learning:**  
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+<img src="assets/h_tech.svg" alt="Tech Stack" width="100%"/>
+<img src="assets/tech.svg" alt="Tech stack: Python, SQL, C, C++, Java, PyTorch, TensorFlow, Scikit-Learn, PySpark, LangChain, MLflow, Docker, Kubernetes, Airflow, Terraform, Kafka, PostgreSQL, FastAPI, React, Prometheus, Grafana and more" width="100%"/>
 
-**MLOps & DevOps:**  
-![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+<img src="assets/h_projects.svg" alt="Projects" width="100%"/>
 
-**Backend:**  
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+<a href="https://github.com/Sambarlasagna/Connected-Fleet-Telemetry-Predictive-Maintenance"><img src="assets/project_1.svg" alt="Connected Fleet Telemetry — predictive maintenance and real-time ML platform" width="100%"/></a>
+<a href="https://github.com/Sambarlasagna/Behavioral-Cloning-for-Steering-Angle-Prediction"><img src="assets/project_2.svg" alt="End-to-End Autonomous Steering — behavioral cloning with a CNN" width="100%"/></a>
+<a href="https://github.com/Sambarlasagna/AutoNotes-Pro"><img src="assets/project_3.svg" alt="AutoNotes-Pro — lecture audio to notes, quizzes and resources" width="100%"/></a>
+<a href="https://github.com/Sambarlasagna/CineScope"><img src="assets/project_4.svg" alt="CineScope — movie sentiment analysis platform" width="100%"/></a>
+<a href="https://github.com/Sambarlasagna/Counterfactual-Vision-Auditor"><img src="assets/project_5.svg" alt="Counterfactual Vision Auditor — auditing shortcut learning in image classifiers" width="100%"/></a>
 
-**Frontend:**  
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+<img src="assets/h_experience.svg" alt="Experience" width="100%"/>
+<img src="assets/experience.svg" alt="Full-Stack Engineer Intern at Sona BLW Precision Forgings; ML Team Member at Microsoft Innovations Club; Technical Team Member at the AI Club and the Open Source Programming Club" width="100%"/>
 
-**Databases:**  
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+<img src="assets/h_journey.svg" alt="Journey" width="100%"/>
+<img src="assets/map.svg" alt="Learning path from foundations to production ML" width="100%"/>
 
----
+<img src="assets/h_education.svg" alt="Education" width="100%"/>
+<img src="assets/education.svg" alt="VIT Chennai, B.Tech CS with AI & ML" width="100%"/>
 
-## 🌐 Connect with Me
+<img src="assets/h_connect.svg" alt="Connect" width="100%"/>
 
-<p>
-  <a href="https://www.linkedin.com/in/jayashuriya-j-11247631b/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="https://leetcode.com/Jayashuriya/">
-    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white"/>
-  </a>
-  <a href="https://www.hackerrank.com/profile/jayatech911">
-    <img src="https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white"/>
-  </a>
-</p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Sambarlasagna/Sambarlasagna/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
+  <a href="https://github.com/Sambarlasagna"><img src="assets/btn_github.svg" alt="GitHub" width="200"/></a>
+  <a href="https://www.linkedin.com/in/jayashuriya-j-11247631b/"><img src="assets/btn_linkedin.svg" alt="LinkedIn" width="200"/></a>
+  <a href="https://leetcode.com/Jayashuriya/"><img src="assets/btn_leetcode.svg" alt="LeetCode" width="200"/></a>
+  <a href="https://www.hackerrank.com/profile/jayatech911"><img src="assets/btn_hackerrank.svg" alt="HackerRank" width="200"/></a>
 </p>
+
+<img src="assets/h_activity.svg" alt="Activity" width="100%"/>
+<img src="assets/elden-snake.svg" alt="Contribution graph with a golden wyrm sweeping across it" width="100%"/>
+
+<img src="assets/footer.svg" alt="Thanks for stopping by" width="100%"/>

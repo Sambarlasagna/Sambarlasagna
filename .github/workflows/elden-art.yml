@@ -1,0 +1,32 @@
+name: Elden profile art
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"   # twice a day
+  workflow_dispatch:          # lets you run it manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build the snake
+        run: python3 scripts/elden_snake.py "${{ github.repository_owner }}" assets/elden-snake.svg
+
+      - name: Build the stats panel
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/elden_stats.py "${{ github.repository_owner }}" assets/elden-stats.svg
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/elden-snake.svg assets/elden-stats.svg
+          git diff --cached --quiet || git commit -m "Update Elden snake and stats"
+          git push
